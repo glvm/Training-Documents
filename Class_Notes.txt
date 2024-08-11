@@ -1,0 +1,312 @@
+Google Cloud Platform Certification Training Programme :
+
+3rd Aug. 2024  - Orientation 	- 1Hr Session
+
+LIVE Session starts from 10th Aug. 2024 
+
+WeekEnds - 8:30PM - 11:30 PM IST Hrs
+
+~~~~~~~~~~~~~~~~~~~~~~~
+Day 1 | 10th Aug. 2024
+~~~~~~~~~~~~~~~~~~~~~~~
+
+	Introduction to GCP
+	
+	Google Cloud Platform 
+	
+	Account Creation 
+	
+	
+	Cloud Computing :::
+	
+		What is Cloud Computing ?
+		
+		Why we need ?
+		
+		Benefits ?
+		
+		Service Module ?
+		
+		Type of Cloud Computing Model ?
+		
+		Core Services ?
+		
+		
+	On-Premises 
+	
+		- Owned and Managed by the user.
+	
+	Cloud Platform 
+	
+		- Managed by the Service Provider.
+		
+		
+	Insurance Domain --> 60 Years 
+	On-Premises --> Monolith Application Architecture. - Legacy
+	IT Services 
+	
+	Cloud Migration!
+	
+	
+	
+	Hybrid Model :
+		public & Private 
+		Cloud and On-Premises
+		
+	Cloud Platform -- 10 Years --> AWS 
+	
+	Azure / GCP(SAAS)
+	
+	Hybrid & Multi-Cloud Platform 
+	
+	Process Automation - to keep the data in-sync with all the platform
+	
+	DevOps !
+	
+	Application/Legacy Modernization:::
+	
+	
+	Create a Free Account on Google Cloud
+	
+		https://cloud.google.com/
+	
+		- Active Mobile Number 
+		- Active Email ID
+		- Valid Credit/Debit card - Authentication purpose.
+				- Ensure that, the card is eligible for international transaction
+	
+	Login to that account!
+	
+	
+
+~~~~~~~~~~~~~~~~~~~~~~~
+Day 2 | 11th Aug. 2024
+~~~~~~~~~~~~~~~~~~~~~~~
+	
+	https://cloud.google.com/
+	
+	Manage Google Cloud
+	
+	Access - Account with Google Cloud Platform 
+		
+	GC Console to explore the GC Services 
+	
+	Various methods to interact with GC Services
+	
+	
+	
+	
+	Understanding the Infra-Structure 
+	
+	Cloud Platform :::
+	
+	Why Cloud Platform ?
+	
+		Launch a Website -> Web Application ->
+		
+		Resources! 
+		
+		Linux Machine --> Cloud Account -- GCP/AWS/Azure --> Linux Based VM
+			-
+			
+		Online Training! --> LMS - Web Application 
+		
+		
+		
+		Dev the Web Application
+		
+		Build the Application
+		
+		Test the Application 
+		
+		Deploy to Production (Web Application(Target))
+		
+		Huge set of resources :
+		
+		Infra-Structure - Environments:
+		
+		Non-Prod Environments													Production Environments
+		
+			Dev Environment
+			
+			Build Environment
+			
+			Test Environments
+			
+				QA Environment
+				UAT Environment		---> Staging/Pre-Prod Environment		---> 	Production Servers
+				
+				
+		On-Premises Environments - requires a huge upfront investment 
+		
+		
+		- GCP -->
+		
+		
+		www.google.com :
+		
+			gmail service 
+			Google drive 
+			Maps 
+			translate 
+		
+		
+		
+		Enterprise Level Account 	==> Root level Account --> Billing will be mapped with root account
+		
+			Organization  (AD) 
+				Project1 	
+					Resources(Compute/Storage/DataBase/Networking)
+				Project2 - developers  
+					Resources(Compute/Storage/DataBase/Networking)
+
+			Organization  (Test) 
+				Project1 	
+					Resources(Compute/Storage/DataBase/Networking)
+				Project2 - 
+					Resources(Compute/Storage/DataBase/Networking)
+					
+			RBAC - Role Based Access Control 
+			
+			
+			
+			Infra-Structure Management 
+			
+				Dev
+				
+				Testing 
+				
+				Process Automation 
+				
+				AD 
+				
+					Java
+					.Net
+					Python 
+		
+		Web Application --> E_Commerce portal! www.loksaieta.com
+		
+		===> Web-Application/Mobile/Desktop/Embedded Application
+		
+		Micro-Service Based Application Architecture :::
+		
+		www.amazon.com   1000s of micro-services 
+		
+			lakhs of use cases and test scenarios 
+		
+		Functions :
+		
+		sign-up			--> Micro-Service1	-> Developer - Independently Designed/developed/Tested/Implemented to Prod.
+		sign-in			--> Micro-Service2 
+		search 
+		add to cart 
+		place the order 
+		make payment 
+		confirm
+		track 
+		
+		
+		Containerized Application
+		
+			mywebapp-sign-in.war 
+			
+				Application Image 
+				
+				mywebapp-sign-in-img:v1.0
+				
+				
+		
+		3 tier application :
+		
+			Front-End Layer 		--> Test 
+			
+			Application Layer 
+			
+			DataBase 
+		
+		End-Customers!
+		
+			Laptops / Mobile / Tabs /		===> Hardware device
+			
+			Laptop --> windows/Mac/Linux 	===> Platform 
+			
+						Chrome/Edge/Firefox
+		
+		
+		VM 
+		
+		GCP ::: https://console.cloud.google.com/
+		
+		
+		
+		External Storage :
+		
+			Persistant Volumes 
+		
+		
+	
+	Various methods to interact with GC Services
+		
+		- GC Console to explore the GC Services 
+
+		- GCloud Shell -- Through Web Browser 		
+			gcloud cli commands to access the resource 
+	
+		- gcloud API Services 
+		
+		- gcloud sdk - software development kit 
+		
+		- IAC Tools - Infra-Structure As Code -> 
+				- Terraform 
+	
+	https://cloud.google.com/sdk/docs/cheatsheet
+	
+	
+	
+		Non-Prod Environments													Production Environments
+		
+			Dev Environment	
+				- Coding - Development Tools - GitHub 
+			
+			Build Environment
+				- Application Build:
+					- It is a process of compiling the source code & Create Artifacts
+					
+			
+			Test Environments
+			
+				QA Environment		Artifacts
+				UAT Environment		---> Staging/Pre-Prod Environment		---> 	Production Servers
+
+		Deployment Package : *Artifacts 
+		
+			Application Should be Containerized!
+			
+			Containerization :
+			
+				- Is a process of Package the application(*artifacts) with all its dependencies
+				
+				Container Engine 
+				
+					Create Container Images 
+					
+					Create Containers 
+					
+				Kubernetes is a Container Orchestration Tool : Used deploy the Containerized Applications
+					- Auto-scaling --> scale-up/down 
+					- Load-Balancing 
+					- Self Healing 
+					
+					20 Prod Servers! +++
+					
+				www.amazon.com 
+				
+				online reservation system 
+				
+					10000 users to access this application
+					
+					50000 users spike!
+					
+		
+		
+		github account ?
