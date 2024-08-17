@@ -310,3 +310,81 @@ Day 2 | 11th Aug. 2024
 		
 		
 		github account ?
+
+~~~~~~~~~~~~~~~~~~~~~~~
+Day 3 | 17th Aug. 2024
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+	Virtual Machines :::
+	
+		- Virtual Machines are called as Hardware level virtualization.
+		- VMs are used to run the Operating System
+		- On top of ths operating system, Applications can be up and running.
+		- Even if there is not Application, VM will still be running.
+		
+	Linux Operating System :::
+	
+		- Open-Source OS and It is reliable, Secured 
+		
+		Linux Distributions :::
+	
+			- Various Flavors of Linux :
+			
+				Package Manager :::
+				
+				Debian/Ubuntu			apt / apt-get		
+				
+				RHEL/Centos				yum 
+				
+				Fedora 					dnf
+			
+				
+	- Created a VM	
+	
+	
+		Regions :::: Geographical Location
+			- Availability Zones (2-3 ==> DataCenter)
+					- Data Center is a collection of Servers 
+		
+		
+			
+		Non-Prod Environments 											Production Environments
+		
+		Dev
+		Build 
+		
+		Test (Can be created, testing, Destroy)
+			QA
+			UAT 															Prod Servers (Running 24/7)
+		
+		
+		IAC Tools - Terraform / Ansible 
+		
+		Infra-Structure As Code ---> 
+		
+		
+		CI/CD :::
+		
+		
+		SCM_Checkout --> Build --> Deploy to QA_Server --> Automated QA_Testing 
+		
+		
+		SCM_Checkout --> Build --> Create QA_Server(Terraform) --> Configure QA_Server(Ansible) --> Deploy to QA_Server --> Automated QA_Testing
+		
+																																	|
+																																	|
+																															Notify the User 
+																																	|
+																																	|
+																															Destroy 	QA_Server(Terraform)
+																															
+		Build Orchestration Tools :
+		
+			Jenkins 			--> groovy Scripts 
+			Azure Pipelines 	--> *.yaml
+			AWS CodePipeline 	--> *.yaml
+			Gitlab-ci 			--> *.yaml
+			
+			
+		
